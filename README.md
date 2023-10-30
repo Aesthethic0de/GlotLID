@@ -83,7 +83,7 @@ You're welcome to open a [pull request](https://github.com/cisnlp/GlotLID/pulls)
 Codes will be uploaded soon.
 
 ## FAQ
-- If you see wrong tags for a normal long text open an [issue](https://github.com/cisnlp/GlotLID/issues), however:
+- If you see wrong predicted tags by GlotLID for a normal long text open an [issue](https://github.com/cisnlp/GlotLID/issues), however:
   - if the script is not supported by our model then use [GlotScript](https://github.com/cisnlp/GlotLID) to verify for the predicted `lang_script`, script in the sentence exists!  Otherwise, you need to write a function that returns 'und_mainscript' in this situations. GlotScript can identify both the mainscript and all available scripts in the sentence. We recommend using GlotLID in conjunction with GlotScript.
   - The high confidence threshold for each language could be different. This is because not all languages have the same distance from each other. For one language, 0.6 is a lot because it is very close to a similar language (such as dyu and bam), while for another, 0.9 might not be. 
   - This model is primarily trained on longer sentences, avoid using it on very short sentences. Other language identification models are not good at short sentences as well unless you increase the ngram size, which is computationally expensive.
