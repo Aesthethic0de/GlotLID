@@ -70,6 +70,9 @@ embedding = model.get_sentence_vector(sent)
 
 See list of data sources [here](./sources.md).
 
+You're welcome to open a [pull request](https://github.com/cisnlp/GlotLID/pulls) or ([issue](https://github.com/cisnlp/GlotLID/issues)) and contribute new resources to our data list. Even for the languages we already support, we're actively seeking additional resources to mitigate domain shift issues.
+
+
 ## Benchmark 
 
 - UDHR: access our clean version of udhr [here](https://huggingface.co/datasets/cis-lmu/udhr-lid).
